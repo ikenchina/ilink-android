@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/bs2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ProgressBar
+            android:id="@+id/timeProgressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <com.ilink.GameView
+        android:id="@+id/gameView1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/shuffleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0" android:layout_marginLeft="10dp" android:gravity="center" android:background="@drawable/status_tv_shape"/>
+
+        <ImageButton
+            android:id="@+id/shuffleIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/life" />
+
+        <TextView
+            android:id="@+id/tipTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0" android:background="@drawable/status_tv_shape" android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/tipIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/gate" />
+
+        <TextView
+            android:id="@+id/addtimeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/status_tv_shape"
+            android:gravity="center"
+            android:text="0" />
+
+        <ImageButton
+            android:id="@+id/addtimeIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/clock" />
+
+        <TextView
+            android:id="@+id/scoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/status_tv_shape"
+            android:gravity="center"
+            android:text="88" />
+
+        <ImageButton
+            android:id="@+id/scoreIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/score" />
+
+        <ImageButton
+            android:id="@+id/startIB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/clock" />
+
+    </LinearLayout>
+
+</LinearLayout>

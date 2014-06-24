@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp" android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/gameMusicTV"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/gameMusicTV" android:gravity="center_vertical"/>
+
+        <ToggleButton
+            android:id="@+id/gameMusicToggle"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/bgMusicTV" android:gravity="center_vertical"/>
+
+        <ToggleButton
+            android:id="@+id/backMusicToggle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/bgTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:text="Background:" />
+
+        <Spinner
+            android:id="@+id/bgSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/imageTeamStrArray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/imageTeamTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="image team:" android:gravity="center_vertical"/>
+
+        <Spinner
+            android:id="@+id/imageTeamSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/imageTeamStrArray" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bgDefineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bgDefineButton" />
+
+    <Button
+        android:id="@+id/imageTeamDefineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/imageTeamDefineButton" />
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/applyButton" />
+
+</LinearLayout>

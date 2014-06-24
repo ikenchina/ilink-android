@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ilink</string><string name="gameMusicOn">game music on</string><string name="gameMusicOff">game music off</string><string name="backMusicOn">background music on</string><string name="backMusicOff">background music off</string><string-array name="imageTeamStrArray">
+        <item >human</item>
+        <item >animal</item>
+        <item >plant</item>
+    </string-array>
+    <string name="imageTeamDefineButton">image team define</string>
+    <string name="bgDefineButton">background image define</string>
+    <string name="applyButton">save and apply</string>
+    <string name="gameMusicTV">game music:</string>
+    <string name="bgMusicTV">background music:</string>
+    <string name="imageTeamDefineTitle">click icon long time</string>
+    <string name="gradetext">Select Grade:</string>
+    <string-array name="gradeArray">
+        <item >primary</item>
+        <item >medium</item>
+        <item >advanced</item>
+        <item >super</item>
+    </string-array>
+    <string name="next">next</string>
+    <string name="cancel">取消</string>
+    <string name="win">you are win!</string>
+    <string name="fail">You are failed! Come on!</string>
+    <string name="playAgain">play again</string>
+    
+</resources>

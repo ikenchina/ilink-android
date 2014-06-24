@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="imageTeamStrArray">
+        <item >人类</item>
+        <item >动物</item>
+        <item >植物</item>
+    </string-array>
+    <string name="gameMusicOn">游戏音乐开</string>
+    <string name="gameMusicOff">游戏音乐关</string>
+    <string name="backMusicOn">背景音乐开</string>
+    <string name="backMusicOff">背景音乐关</string>
+    <string name="imageTeamDefineButton">图片样式自定义</string>
+    <string name="bgDefineButton">背景图片自定义</string>
+    <string name="applyButton">保存执行</string>
+    <string name="gameMusicTV">游戏音乐</string>
+    <string name="bgMusicTV">背景音乐</string>
+    <string name="imageTeamDefineTitle">长按图标进行修改</string>
+    <string name="gradetext">选择等级:</string>
+    <string-array name="gradeArray">
+        
+        <item >初级</item>
+        <item >中级</item>
+        <item >高级</item>
+        <item >变态级</item>
+    </string-array>
+    <string name="next">下一步</string>
+    <string name="cancel">取消</string>
+    <string name="fail">你失败啦！继续加油！</string>
+    <string name="playAgain">重来</string>
+    
+</resources>
